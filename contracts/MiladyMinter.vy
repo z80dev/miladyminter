@@ -573,6 +573,11 @@ def safe_mint(minOut: uint256 = 0):
     # no longer even theoretically possible.
     self._safe_mint(msg.sender, token_id, b"")
 
+
+################################################################
+#                        BUYING $MILADY                        #
+################################################################
+
 interface Router:
     def swapExactETHForTokens(
             _amountOutMin: uint256,
